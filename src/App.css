@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  z-index: 1;
+  padding: 1rem;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  max-width: 80vw; 
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-size: 5rem; 
+  font-weight: bolder;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  text-align: center;
+  letter-spacing: 1rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.temp-status {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  width: 80%;
+}
+
+.temp-value {
+  color: #FA4032;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.status-value {
+  color: rgb(29, 29, 29);
+  font-size: 5rem;
+}
+
+.city {
+  color: white;
+  font-size: 3rem;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .temp-value, .status-value {
+    font-size: 3.5rem;
+  }
+
+  .city {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .weather-app {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .temp-value, .status-value {
+    font-size: 2.5rem;
+  }
+
+  .city {
+    font-size: 2rem;
+  }
+
+  input {
+    width: 80%;
+    margin: 5px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .temp-value, .status-value {
+    font-size: 2rem;
+  }
+
+  .city {
+    font-size: 1.8rem;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  button {
+    padding: 6px 12px;
+  }
+}
