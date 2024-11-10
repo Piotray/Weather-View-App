@@ -1,15 +1,15 @@
-﻿### Weather View App
+﻿## Weather View App
 
 This app provides real-time weather updates from around the world, featuring immersive video backgrounds that match the current weather conditions—bringing the atmosphere of each forecast to life.
 
-## Usage Video
+### Usage Video
 
 To see the project in action, check out this usage video:
 
 ![Usage Video](public/case.mp4)
 
 
-## Installation
+### Installation
 
 1. Clone the repository:
     ```sh
