@@ -1,12 +1,20 @@
-﻿##My Project
+﻿### Weather View App
+
 This app provides real-time weather updates from around the world, featuring immersive video backgrounds that match the current weather conditions—bringing the atmosphere of each forecast to life.
+
+## Usage Video
+
+To see the project in action, check out this usage video:
+
+![Usage Video](public/case.mp4)
+
 
 ## Installation
 
 1. Clone the repository:
     ```sh
     git clone https://github.com/Piotray/Weather-View
-    cd webticker
+    cd Weather-View
     ```
 
 2. Install the dependencies:
@@ -36,7 +44,7 @@ This app provides real-time weather updates from around the world, featuring imm
 
 For a more dynamic experience, this project includes video backgrounds for different weather conditions. Each video file should be named according to the weather status, using the `.mp4` format. Place these videos in a folder (e.g., `videos/`) at the root of the project.
 
-### Video Files Required
+   **Video Files Required**
 
 | Weather Status      | File Name             |
 |---------------------|-----------------------|
@@ -59,9 +67,6 @@ For a more dynamic experience, this project includes video backgrounds for diffe
 4. **Video Resources**: For high-quality videos, you may consider using popular resources like [Freepik](https://www.freepik.com/), which offers a variety of free and paid content that may be suitable for your project.
 
 ---
-
-This addition should clarify where users can find suitable videos for the project. Let me know if there’s anything else!
-
 
 
 ## Usage
