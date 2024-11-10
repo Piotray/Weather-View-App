@@ -10,8 +10,8 @@ This app provides real-time weather updates from around the world, featuring imm
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Piotray/Weather-View
-    cd Weather-View
+    git clone https://github.com/Piotray/Weather-View-App.git
+    cd Weather-View-App
     ```
 
 2. Install the dependencies:
