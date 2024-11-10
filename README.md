@@ -4,9 +4,8 @@ This app provides real-time weather updates from around the world, featuring imm
 
 ### Usage Video
 
-To see the project in action, check out this usage video:
+![Usage Demo](public/case.gif)
 
-<video src="public/case.mp4" controls width="600"></video>
 
 
 
