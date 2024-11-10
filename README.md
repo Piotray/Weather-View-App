@@ -2,10 +2,7 @@
 
 This app provides real-time weather updates from around the world, featuring immersive video backgrounds that match the current weather conditions—bringing the atmosphere of each forecast to life.
 
-### Usage Video
-
 ![Usage Demo](public/case.gif)
-
 
 
 
@@ -34,7 +31,7 @@ This app provides real-time weather updates from around the world, featuring imm
 4.2 **Obtain Your API Key**  
    After signing in, navigate to the **API keys** section in your profile. There, you’ll find your default API key, or you can generate a new one.
 
-4.3 **Add Your API Key to the Project**  
+4.3 **Add Your API Key to the Project** 
    Add it to the line 5 of the weather.jsx file:
    ```sh
    const API_KEY = "PLACE FOR YOUR API KEY";
@@ -72,9 +69,10 @@ For a more dynamic experience, this project includes video backgrounds for diffe
 ## Usage
 
 1. Open your web browser and navigate to `http://localhost:3000`.
-2. Type your desired text in the input field.
-3. Select the background color using the color picker.
+2. Type your desired city in the input field and press 'get weather'.
 
 Acknowledgements
 Thanks to React for providing a powerful framework for building user interfaces.
-Inspired by fun and interactive web projects.
+
+The GIF used for the usage demo was created using the [EZGIF](https://ezgif.com/) tool.
+
